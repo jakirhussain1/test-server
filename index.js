@@ -1,9 +1,9 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 5000;
+const port =  5000;
 
 app.get("/",(req,res)=>{
-    res.send("Hello World I am coming")
+    res.send("Something change in server")
 })
 
 
